@@ -4,8 +4,8 @@ import * as teams from './default_teams.js';
 import * as default_timer from './default_timer.js';
 
 // настройки
-const WaitingPlayersTime = 10;
-const BuildBaseTime = 30;
+const WaitingPlayersTime = 3;
+const BuildBaseTime = 3;
 const KnivesModeTime = 5;
 const GameModeTime = default_timer.game_mode_length_seconds();
 const MockModeTime = 20;
@@ -75,8 +75,8 @@ redTeam.Properties.Get(SCORES_PROP_NAME).Value = 0;
 blueTeam.Properties.Get(SCORES_PROP_NAME).Value = 0;
 
 // отображаем значения вверху экрана
-Ui.GetContext().TeamProp1.Value = { Team: "Blue", Prop: SCORES_PROP_NAME };
-Ui.GetContext().TeamProp2.Value = { Team: "Red", Prop: SCORES_PROP_NAME };
+Ui.GetContext().TeamProp1.Value = { Team: "Blue", Prop: ОЧКИ СКРЫТЫ / СНЕЖКИ };
+Ui.GetContext().TeamProp2.Value = { Team: "Red", Prop: ОЧКИ СКРЫТЫ / СНЕЖКИ };
 
 // при запросе смены команды игрока - добавляем его в запрашиваемую команду
 Teams.OnRequestJoinTeam.Add(function (player, team) { team.Add(player); });
