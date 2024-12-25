@@ -6,16 +6,16 @@ import * as default_timer from './default_timer.js';
 // настройки
 const WaitingPlayersTime = 10;
 const BuildBaseTime = 30;
-const KnivesModeTime = 40;
+const KnivesModeTime = 5;
 const GameModeTime = default_timer.game_mode_length_seconds();
 const MockModeTime = 20;
 const EndOfMatchTime = 8;
 const VoteTime = 20;
 
-const KILL_SCORES = 5;
-const WINNER_SCORES = 10;
-const TIMER_SCORES = 5;
-const SCORES_TIMER_INTERVAL = 30;
+const KILL_SCORES = 20;
+const WINNER_SCORES = 50;
+const TIMER_SCORES = 15;
+const SCORES_TIMER_INTERVAL = 15;
 
 // имена используемых объектов
 const WaitingStateValue = "Waiting";
