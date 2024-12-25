@@ -1,6 +1,6 @@
 {
-  "Name": "TDM",
-  "Description": "Team Death Match. Битва двух команд",
+  "Name": "Снежки",
+  "Description": "ТГ КАНАЛ newsofpc2",
   "StartClientVersion": 573,
   "MapFilter": {
     "IsBlank": false,
